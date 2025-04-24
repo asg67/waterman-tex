@@ -11,7 +11,7 @@ export default function Home() {
       <header className="container mx-auto py-6 px-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <MessageCircle className="h-8 w-8 text-emerald-500" />
-          <span className="text-xl font-bold">МЕГАВОДЯНОЙ</span>
+          <span className="text-xl font-bold">ВОДЯНОЙ ТЕХ</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <Link href="#features" className="text-gray-300 hover:text-white transition-colors">
