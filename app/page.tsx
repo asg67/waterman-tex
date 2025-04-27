@@ -595,29 +595,29 @@ export default function Home() {
                     <Shield className="h-4 w-4" />
                     <span>Российская IT-компания</span>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Специализация — цифровая автоматизация B2B-рынка</h3>
+                  <h3 className="text-2xl font-bold mb-4">Оказание IT-услуг для корпоративных клиентов</h3>
                   <p className="text-gray-300">
-                    Мы разрабатываем инновационные решения для бизнеса, которые помогают оптимизировать рабочие процессы
-                    и увеличивать прибыль. Наша миссия — сделать технологии доступными для всех участников рынка.
+                    Мы предоставляем услуги в области информационных технологий, включая разработку, поддержку и сопровождение 
+                    программных решений для бизнеса. Основным направлением работы является сотрудничество с корпоративными заказчиками
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">5+ лет</h4>
-                    <p className="text-sm text-gray-300">на рынке IT-решений для бизнеса</p>
+                    <h4 className="font-bold mb-2">2025 год</h4>
+                    <p className="text-sm text-gray-300">	начало деятельности в области информационных технологий</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">10 000+</h4>
-                    <p className="text-sm text-gray-300">активных пользователей наших сервисов</p>
+                    <h4 className="font-bold mb-2">1 клиент</h4>
+                    <p className="text-sm text-gray-300">основной корпоративный клиент — ООО «Промресурс»</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">50+</h4>
-                    <p className="text-sm text-gray-300">специалистов в команде разработки</p>
+                    <h4 className="font-bold mb-2">1 проект</h4>
+                    <p className="text-sm text-gray-300">на стадии активной реализации</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">15+</h4>
-                    <p className="text-sm text-gray-300">реализованных проектов для крупного бизнеса</p>
+                    <h4 className="font-bold mb-2">Фокус на качестве</h4>
+                    <p className="text-sm text-gray-300">услуг в сфере информационных технологий</p>
                   </div>
                 </div>
 
