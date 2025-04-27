@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Кэшбэк система</h3>
                 <p className="text-gray-300">
-                  Получайте до 10% кэшбэка с каждой продажи сантехнического оборудования через вашу реферальную ссылку
+                  Получайте кэшбэк с каждой продажи сантехнического оборудования через вашу реферальную ссылку
                 </p>
               </div>
             </Card>
@@ -351,7 +351,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-300">До 10% кэшбэка с каждой продажи</span>
+                  <span className="text-gray-300">Кэшбэк с каждой продажи</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
@@ -359,7 +359,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-300">Вывод средств от 20 000 ₽</span>
+                  <span className="text-gray-300">Вывод средств и скидки на товары</span>
                 </li>
               </ul>
             </div>
@@ -376,15 +376,14 @@ export default function Home() {
                   <Shield className="h-4 w-4" />
                   <span>Юридическая прозрачность</span>
                 </div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">Сервис соответствует требованиям Минцифры РФ</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">Организация осуществляет деятельность в области информационных технологий</h2>
                 <p className="text-gray-300 mb-6">
-                  Наш сервис полностью соответствует российскому законодательству и имеет все необходимые аккредитации
-                  для работы на территории РФ.
+                  На официальном сайте размещена информация о направлениях деятельности в сфере информационных технологий, включая описание оказываемых услуг и разрабатываемых продуктов
                 </p>
-                <div className="bg-gray-700/50 backdrop-blur-sm p-4 rounded-lg inline-block">
+                {/* <div className="bg-gray-700/50 backdrop-blur-sm p-4 rounded-lg inline-block">
                   <p className="text-sm text-gray-300">Номер аккредитации:</p>
                   <p className="font-mono text-lg font-bold">РФ-XXXXXX-XXXX</p>
-                </div>
+                </div> */}
               </div>
               <div className="flex-1 flex justify-center">
                 <div className="bg-gray-700/30 backdrop-blur-sm p-6 rounded-2xl max-w-md">
@@ -695,7 +694,7 @@ export default function Home() {
             <div className="relative z-10 text-center max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-bold mb-6">Готовы работать с нами?</h2>
               <p className="text-gray-300 text-lg mb-8">
-                Присоединяйтесь к тысячам монтажников, которые уже используют наш сервис и получают дополнительный доход
+                Присоединяйтесь к нам, используй наш сервис и получай дополнительный доход
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 {/* <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
@@ -705,7 +704,7 @@ export default function Home() {
                   Узнать больше
                 </Button> */}
               </div>
-              <p className="text-sm text-gray-400 mt-4">Начните пользоваться сервисом прямо сейчас — это бесплатно!</p>
+              <p className="text-sm text-gray-400 mt-4">Присоединяйтесь — сделаем больше вместе</p>
             </div>
           </div>
         </section>

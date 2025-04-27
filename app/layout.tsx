@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin", "cyrillic"] })
 
 export const metadata = {
-  title: "TechPlumb - Цифровой помощник для монтажников сантехники",
+  title: "Водяной тех - Цифровой помощник для монтажников сантехники",
   description: "Управляйте заказами, получайте кэшбэк и бонусы, привлекайте клиентов — всё в одном Telegram-боте",
     generator: 'v0.dev'
 }
