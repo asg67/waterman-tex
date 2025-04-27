@@ -7,8 +7,7 @@ const inter = Inter({ subsets: ["latin", "cyrillic"] })
 
 export const metadata = {
   title: "Водяной тех - Цифровой помощник для монтажников сантехники",
-  description: "Управляйте заказами, получайте кэшбэк и бонусы, привлекайте клиентов — всё в одном Telegram-боте",
-    generator: 'v0.dev'
+  description: "Управляйте заказами, получайте кэшбэк и бонусы, привлекайте клиентов — всё в одном Telegram-боте"
 }
 
 export default function RootLayout({
