@@ -419,7 +419,7 @@ export default function Home() {
         </section>
 
         {/* Reviews Section */}
-        <section className="container mx-auto py-20 px-4">
+        {/* <section className="container mx-auto py-20 px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Отзывы монтажников</h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
@@ -497,7 +497,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Pricing Section */}
         <section id="pricing" className="container mx-auto py-20 px-4">
@@ -569,9 +569,9 @@ export default function Home() {
                 </div>
 
                 <div className="mt-8 text-center">
-                  <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
+                  {/* <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
                     Начать пользоваться бесплатно <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>
@@ -622,10 +622,10 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4">
-                  <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">Подробнее о компании</Button>
+                  {/* <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">Подробнее о компании</Button>
                   <Button variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
                     Связаться с нами
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>
@@ -700,12 +700,12 @@ export default function Home() {
                 Присоединяйтесь к тысячам монтажников, которые уже используют наш сервис и получают дополнительный доход
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
+                {/* <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
                   Запустить Telegram-бота <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button size="lg" variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
                   Узнать больше
-                </Button>
+                </Button> */}
               </div>
               <p className="text-sm text-gray-400 mt-4">Начните пользоваться сервисом прямо сейчас — это бесплатно!</p>
             </div>
@@ -720,12 +720,12 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <MessageCircle className="h-6 w-6 text-emerald-500" />
-                <span className="text-lg font-bold">TechPlumb</span>
+                <span className="text-lg font-bold">ВОДЯНОЙ ТЕХ</span>
               </div>
               <p className="text-gray-400 text-sm">
                 Инновационный IT-сервис для монтажников сантехнического оборудования
               </p>
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -754,7 +754,7 @@ export default function Home() {
                     <path d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z" />
                   </svg>
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <div>
@@ -786,17 +786,17 @@ export default function Home() {
             <div>
               <h3 className="font-bold mb-4">Юридическая информация</h3>
               <ul className="space-y-2">
-                <li>
+                {/* <li>
                   <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                     Публичная оферта
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                     Политика конфиденциальности
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                     Пользовательское соглашение
                   </Link>
@@ -805,7 +805,7 @@ export default function Home() {
                   <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                     Правовая информация
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
 
