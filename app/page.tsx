@@ -27,7 +27,7 @@ export default function Home() {
             О компании
           </Link>
         </nav>
-        <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">Запустить бота</Button>
+        {/* <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">Запустить бота</Button> */}
       </header>
 
       <main>
@@ -165,7 +165,7 @@ export default function Home() {
         </section>
 
         {/* Demo Section */}
-        <section className="py-20 relative overflow-hidden">
+        {/* <section className="py-20 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-emerald-950/20 to-transparent"></div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center mb-16">
@@ -279,7 +279,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* How it works */}
         <section id="how-it-works" className="container mx-auto py-20 px-4">
