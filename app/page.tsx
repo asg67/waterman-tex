@@ -583,7 +583,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">О компании</h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-              Инновационный IT-сервис, работающий по российскому законодательству
+              Профессиональные IT-услуги для бизнеса
             </p>
           </div>
 
@@ -638,7 +638,7 @@ export default function Home() {
                     <Shield className="h-6 w-6 text-emerald-500" />
                   </div>
                   <div>
-                    <h4 className="font-bold mb-1">Безопасность и надежность</h4>
+                    <h4 className="font-bold mb-1">Надежность и безопасность</h4>
                     <p className="text-sm text-gray-300">
                       Мы обеспечиваем высокий уровень защиты данных и стабильную работу всех наших сервисов.
                     </p>
@@ -652,8 +652,7 @@ export default function Home() {
                   <div>
                     <h4 className="font-bold mb-1">Клиентоориентированность</h4>
                     <p className="text-sm text-gray-300">
-                      Мы создаем продукты, которые решают реальные проблемы наших пользователей и делают их работу
-                      эффективнее.
+                      Мы учитываем реальные потребности клиентов и стремимся к эффективным решениям
                     </p>
                   </div>
                 </div>
@@ -663,10 +662,9 @@ export default function Home() {
                     <RefreshCw className="h-6 w-6 text-emerald-500" />
                   </div>
                   <div>
-                    <h4 className="font-bold mb-1">Инновации и развитие</h4>
+                    <h4 className="font-bold mb-1">Развитие и совершенствование</h4>
                     <p className="text-sm text-gray-300">
-                      Мы постоянно совершенствуем наши продукты, внедряя передовые технологии и следуя современным
-                      тенденциям.
+                      Мы постоянно улучшаем наши подходы и внедряем современные технологии
                     </p>
                   </div>
                 </div>
@@ -695,7 +693,7 @@ export default function Home() {
             <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-blue-500/20 rounded-full filter blur-3xl"></div>
 
             <div className="relative z-10 text-center max-w-3xl mx-auto">
-              <h2 className="text-3xl md:text-5xl font-bold mb-6">Готовы начать зарабатывать больше?</h2>
+              <h2 className="text-3xl md:text-5xl font-bold mb-6">Готовы работать с нами?</h2>
               <p className="text-gray-300 text-lg mb-8">
                 Присоединяйтесь к тысячам монтажников, которые уже используют наш сервис и получают дополнительный доход
               </p>
