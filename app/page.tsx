@@ -542,7 +542,7 @@ export default function Home() {
                       </li>
                       <li className="flex items-start gap-3">
                         <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5" />
-                        <span>Кэшбэк до 10% с каждой продажи</span>
+                        <span>Кэшбэк с каждой продажи</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5" />
@@ -809,9 +809,9 @@ export default function Home() {
             <div>
               <h3 className="font-bold mb-4">Контакты</h3>
               <ul className="space-y-2">
-                <li className="text-gray-400">Email: info@techplumb.ru</li>
+                <li className="text-gray-400">Email: info@водянойтех.ru</li>
                 <li className="text-gray-400">Телефон: +7 (800) 555-35-35</li>
-                <li className="text-gray-400">Адрес: г. Москва, ул. Технологическая, д. 42</li>
+                <li className="text-gray-400">Адрес: г. Томск, ул. Октябрьский Взвоз, д. 1</li>
               </ul>
             </div>
           </div>
@@ -819,11 +819,11 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-gray-400 text-sm">
-                <p>ООО "ТехПламб" | ИНН: 7712345678 | ОГРН: 1234567890123</p>
-                <p>© 2023 TechPlumb. Все права защищены.</p>
+                <p>ООО "Водяной тех" | ИНН: сюда инн вставим | ОГРН: тоже вставить надо</p>
+                <p>© 2025 Водяной тех Все права защищены.</p>
               </div>
               <div className="text-gray-400 text-sm">
-                <p>Разработано в России 🇷🇺</p>
+                {/* <p>Разработано в России 🇷🇺</p> */}
               </div>
             </div>
           </div>
