@@ -45,12 +45,12 @@ export default function Home() {
                 Управляйте заказами, получайте кэшбэк и бонусы, привлекайте клиентов — всё в одном Telegram-боте
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
+                {/* <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
                   Запустить Telegram-бота <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-                <Button size="lg" variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
+                </Button> */}
+                {/* <Button size="lg" variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
                   Узнать больше
-                </Button>
+                </Button> */}
               </div>
               <div className="flex items-center gap-2 text-sm text-gray-400">
                 <Shield className="h-4 w-4" />
@@ -64,7 +64,7 @@ export default function Home() {
                     <MessageCircle className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-bold">МЕГАВОДЯНОЙ</h3>
+                    <h3 className="font-bold">ВОДЯНОЙ ТЕХ</h3>
                     <p className="text-sm text-gray-400">Онлайн</p>
                   </div>
                 </div>
