@@ -38,7 +38,7 @@ export default function Home() {
               <div>
                 <p className="text-emerald-500 font-medium mb-2">ИННОВАЦИОННЫЙ IT-СЕРВИС</p>
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                  Цифровой помощник для монтажников сантехники
+                  Цифровой помощник для мастеров сантехники
                 </h1>
               </div>
               <p className="text-gray-300 text-lg md:text-xl">
@@ -70,7 +70,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-4">
                   <div className="bg-gray-700/50 backdrop-blur-sm p-3 rounded-lg rounded-tl-none max-w-[80%]">
-                    Добро пожаловать в систему для монтажников! Что вы хотите сделать?
+                    Добро пожаловать в систему для мастеров сантехники! Что вы хотите сделать?
                   </div>
                   <div className="flex justify-end">
                     <div className="bg-emerald-500/20 backdrop-blur-sm p-3 rounded-lg rounded-tr-none max-w-[80%]">
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Возможности Telegram-бота</h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-              Полный набор инструментов для эффективной работы монтажников сантехнического оборудования
+              Полный набор инструментов для эффективной работы мастеров сантехнического оборудования
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Реферальная система</h3>
                 <p className="text-gray-300">
-                  Приглашайте других монтажников и получайте дополнительные бонусы с их продаж и активности
+                  Приглашайте других мастеров сантехнического оборудования и получайте дополнительные бонусы с их продаж и активности
                 </p>
               </div>
             </Card>
@@ -355,7 +355,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-300">Бонусы за приглашенных монтажников</span>
+                  <span className="text-gray-300">Бонусы за приглашенных специалистов</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
@@ -503,7 +503,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Стоимость использования</h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-              Мы стремимся сделать наш сервис доступным для всех монтажников сантехнического оборудования
+              Мы стремимся сделать наш сервис доступным для всех специалистов сантехнического оборудования
             </p>
           </div>
 
@@ -520,7 +520,7 @@ export default function Home() {
 
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
                   <div>
-                    <h3 className="text-2xl md:text-4xl font-bold mb-2">Навсегда бесплатно для монтажников</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2">Навсегда бесплатно для специалистов сантехники</h3>
                     <p className="text-gray-300">Никаких скрытых платежей или комиссий</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-lg">
@@ -559,7 +559,7 @@ export default function Home() {
                     <h4 className="font-bold text-lg mb-4">Как мы зарабатываем?</h4>
                     <p className="text-gray-300 mb-4">
                       Мы получаем комиссию от производителей сантехнического оборудования за каждую продажу, совершенную
-                      через нашу систему. Это позволяет нам предоставлять сервис бесплатно для монтажников.
+                      через нашу систему. Это позволяет нам предоставлять сервис бесплатно для мастеров сантехнического оборудования.
                     </p>
                     <p className="text-gray-300">
                       Вы получаете часть этой комиссии в виде кэшбэка, а мы - возможность развивать сервис дальше.
@@ -720,7 +720,7 @@ export default function Home() {
                 <span className="text-lg font-bold">ВОДЯНОЙ ТЕХ</span>
               </div>
               <p className="text-gray-400 text-sm">
-                Инновационный IT-сервис для монтажников сантехнического оборудования
+                Инновационный IT-сервис для специалистов сантехнического оборудования
               </p>
               {/* <div className="flex gap-4">
                 <Link href="#" className="text-gray-400 hover:text-white transition-colors">
