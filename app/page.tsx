@@ -558,8 +558,7 @@ export default function Home() {
                   <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg">
                     <h4 className="font-bold text-lg mb-4">Как мы зарабатываем?</h4>
                     <p className="text-gray-300 mb-4">
-                      Мы получаем комиссию от производителей сантехнического оборудования за каждую продажу, совершенную
-                      через нашу систему. Это позволяет нам предоставлять сервис бесплатно для мастеров сантехнического оборудования.
+                      Мы являемся ведущими поставщиками сантехнического оборудования. Это позволяет нам предоставлять сервис бесплатно для мастеров сантехнического оборудования.
                     </p>
                     <p className="text-gray-300">
                       Вы получаете часть этой комиссии в виде кэшбэка, а мы - возможность развивать сервис дальше.
@@ -607,12 +606,12 @@ export default function Home() {
                     <p className="text-sm text-gray-300">	начало деятельности в области информационных технологий</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">1 клиент</h4>
-                    <p className="text-sm text-gray-300">основной корпоративный клиент — ООО «Промресурс»</p>
+                    <h4 className="font-bold mb-2">Опыт в автоматизации бизнес-процессов</h4>
+                    <p className="text-sm text-gray-300">разрабатываем ИТ-решения, которые помогают бизнесу работать быстрее и эффективнее.</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">1 проект</h4>
-                    <p className="text-sm text-gray-300">на стадии активной реализации</p>
+                    <h4 className="font-bold mb-2">Инновации в каждом проекте</h4>
+                    <p className="text-sm text-gray-300">используем современные технологии для создания конкурентных преимуществ нашим клиентам</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Фокус на качестве</h4>
