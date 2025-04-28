@@ -520,7 +520,7 @@ export default function Home() {
 
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8">
                   <div>
-                    <h3 className="text-2xl md:text-4xl font-bold mb-2">Навсегда бесплатно для специалистов сантехники</h3>
+                    <h3 className="text-2xl md:text-4xl font-bold mb-2">Бесплатно для специалистов сантехники</h3>
                     <p className="text-gray-300">Никаких скрытых платежей или комиссий</p>
                   </div>
                   <div className="bg-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-lg">
