@@ -812,7 +812,6 @@ export default function Home() {
               <h3 className="font-bold mb-4">Контакты</h3>
               <ul className="space-y-2">
                 <li className="text-gray-400">Email:  MAT@WATERMAN-T.COM</li>
-                <li className="text-gray-400">Телефон: +7 (800) 555-35-35</li>
                 <li className="text-gray-400">Адрес: 634003, г. Томск, ул. Октябрьский Взвоз, д. 1</li>
               </ul>
             </div>
