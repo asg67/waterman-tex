@@ -26,7 +26,7 @@ export default function ProductPage() {
       <header className="container mx-auto py-6 px-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <MessageCircle className="h-8 w-8 text-emerald-500" />
-          <span className="text-xl font-bold">МЕГАВОДЯНОЙ</span>
+          <span className="text-xl font-bold">ВОДЯНОЙ АЙТИ</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <Link href="/" className="text-gray-300 hover:text-white transition-colors">
@@ -42,7 +42,7 @@ export default function ProductPage() {
             Контакты
           </Link>
         </nav>
-        <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">Запустить бота</Button>
+        {/* <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">Запустить бота</Button> */}
       </header>
 
       <main className="container mx-auto py-12 px-4">
@@ -65,22 +65,22 @@ export default function ProductPage() {
             <span>Вернуться на главную</span>
           </Link>
 
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Telegram-бот для монтажников сантехники</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Telegram-бот для специалистов сантехники</h1>
 
           <div className="bg-gray-800/50 backdrop-blur-xl rounded-2xl border border-gray-700 p-6 md:p-8">
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              Наш Telegram-бот — это комплексное решение для монтажников сантехнического оборудования, которое позволяет
+              Наш Telegram-бот — это комплексное решение для специалистов сантехнического оборудования, которое позволяет
               автоматизировать рабочие процессы, увеличить доход и улучшить взаимодействие с клиентами. Все необходимые
               инструменты собраны в одном удобном интерфейсе, доступном прямо в Telegram.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
+              {/* <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
                 Запустить Telegram-бота <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
+              </Button> */}
+              {/* <Button size="lg" variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
                 Смотреть демо
-              </Button>
+              </Button> */}
             </div>
           </div>
         </section>
@@ -265,7 +265,7 @@ export default function ProductPage() {
                 <span>Реферальная система</span>
               </h3>
               <p className="text-gray-300 mb-4">
-                Приглашайте других монтажников в систему и получайте дополнительный доход с их заказов. Многоуровневая
+                Приглашайте других специалистов в систему и получайте дополнительный доход с их заказов. Многоуровневая
                 реферальная программа позволяет зарабатывать даже на приглашенных вашими рефералами.
               </p>
               <ul className="space-y-2">
@@ -435,7 +435,7 @@ export default function ProductPage() {
             <div className="bg-gray-800/50 backdrop-blur-xl rounded-2xl border border-gray-700 p-6">
               <h3 className="text-xl font-bold mb-3">Сколько стоит использование бота?</h3>
               <p className="text-gray-300">
-                Использование бота абсолютно бесплатно для всех монтажников. Мы зарабатываем на комиссии от
+                Использование бота абсолютно бесплатно для всех специалистов. Мы зарабатываем на комиссии от
                 производителей сантехнического оборудования, часть которой возвращаем вам в виде кэшбэка.
               </p>
             </div>
@@ -461,7 +461,7 @@ export default function ProductPage() {
               <h3 className="text-xl font-bold mb-3">Как работает реферальная система?</h3>
               <p className="text-gray-300">
                 Вы получаете уникальную реферальную ссылку, которой можете поделиться с коллегами. За каждого
-                приглашенного монтажника вы получаете бонус, а также процент от его заказов в течение всего времени
+                приглашенного специалиста вы получаете бонус, а также процент от его заказов в течение всего времени
                 использования системы.
               </p>
             </div>
@@ -494,7 +494,7 @@ export default function ProductPage() {
             <div className="relative z-10 text-center max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Готовы начать пользоваться нашим ботом?</h2>
               <p className="text-gray-300 text-lg mb-8">
-                Присоединяйтесь к тысячам монтажников, которые уже оптимизировали свою работу и увеличили доход с
+                Присоединяйтесь к тысячам специалистов, которые уже оптимизировали свою работу и увеличили доход с
                 помощью нашего Telegram-бота
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -521,7 +521,7 @@ export default function ProductPage() {
                 <span className="text-lg font-bold">МЕГАВОДЯНОЙ</span>
               </div>
               <p className="text-gray-400 text-sm">
-                Инновационный IT-сервис для монтажников сантехнического оборудования
+                Инновационный IT-сервис для специалистов сантехнического оборудования
               </p>
               <div className="flex gap-4">
                 <Link href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -579,30 +579,29 @@ export default function ProductPage() {
             <div>
               <h3 className="font-bold mb-4">Юридическая информация</h3>
               <ul className="space-y-2">
-                <li>
+                {/* <li>
                   <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                     Публичная оферта
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                     Политика конфиденциальности
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                     Пользовательское соглашение
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
 
             <div>
               <h3 className="font-bold mb-4">Контакты</h3>
               <ul className="space-y-2">
-                <li className="text-gray-400">Email: info@megavodyanoy.ru</li>
-                <li className="text-gray-400">Телефон: +7 (800) 555-35-35</li>
-                <li className="text-gray-400">Адрес: г. Москва, ул. Технологическая, д. 42</li>
+                <li className="text-gray-400">Email: MAT@WATERMAN-T.COM</li>
+                <li className="text-gray-400">Адрес: 634003, г. Томск, ул. Октябрьский Взвоз, д. 1</li>
               </ul>
             </div>
           </div>
@@ -610,8 +609,8 @@ export default function ProductPage() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-gray-400 text-sm">
-                <p>ООО "МегаВодяной" | ИНН: 7712345678 | ОГРН: 1234567890123</p>
-                <p>© 2023 МЕГАВОДЯНОЙ. Все права защищены.</p>
+                <p>ООО "ВОДЯНОЙ АЙТИ" | ИНН: 7000025583 | ОГРН: 1257000002764</p>
+                <p>© 2023 ВОДЯНОЙ АЙТИ. Все права защищены.</p>
               </div>
               <div className="text-gray-400 text-sm">
                 <p>Разработано в России 🇷🇺</p>

@@ -11,7 +11,7 @@ export default function Home() {
       <header className="container mx-auto py-6 px-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <MessageCircle className="h-8 w-8 text-emerald-500" />
-          <span className="text-xl font-bold">ВОДЯНОЙ ТЕХ</span>
+          <span className="text-xl font-bold">ВОДЯНОЙ АЙТИ</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <Link href="#features" className="text-gray-300 hover:text-white transition-colors">
@@ -64,7 +64,7 @@ export default function Home() {
                     <MessageCircle className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-bold">ВОДЯНОЙ ТЕХ</h3>
+                    <h3 className="font-bold">ВОДЯНОЙ АЙТИ</h3>
                     <p className="text-sm text-gray-400">Онлайн</p>
                   </div>
                 </div>
@@ -808,9 +808,9 @@ export default function Home() {
             <div>
               <h3 className="font-bold mb-4">Контакты</h3>
               <ul className="space-y-2">
-                <li className="text-gray-400">Email: info@водянойтех.ru</li>
+                <li className="text-gray-400">Email:  MAT@WATERMAN-T.COM</li>
                 <li className="text-gray-400">Телефон: +7 (800) 555-35-35</li>
-                <li className="text-gray-400">Адрес: г. Томск, ул. Октябрьский Взвоз, д. 1</li>
+                <li className="text-gray-400">Адрес: 634003, г. Томск, ул. Октябрьский Взвоз, д. 1</li>
               </ul>
             </div>
           </div>
@@ -818,7 +818,7 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-gray-400 text-sm">
-                <p>ООО "Водяной тех" | ИНН: сюда инн вставим | ОГРН: тоже вставить надо</p>
+                <p>ООО "ВОДЯНОЙ АЙТИ" | ИНН: 7000025583 | ОГРН: 1257000002764</p>
                 <p>© 2025 Водяной тех Все права защищены.</p>
               </div>
               <div className="text-gray-400 text-sm">
