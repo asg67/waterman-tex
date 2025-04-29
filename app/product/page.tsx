@@ -271,11 +271,11 @@ export default function ProductPage() {
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-300">До 5% с заказов ваших рефералов</span>
+                  <span className="text-gray-300">Кэшбэк с каждой продажи</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-300">До 2% с заказов рефералов второго уровня</span>
+                  <span className="text-gray-300">Личный кабинет с аналитикой</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-emerald-500 mt-0.5 flex-shrink-0" />
@@ -374,9 +374,9 @@ export default function ProductPage() {
                 <div className="bg-gray-700/50 backdrop-blur-sm p-6 rounded-lg h-full">
                   <h3 className="text-xl font-bold mb-4">Запустите бота</h3>
                   <p className="text-gray-300 mb-4">
-                    Откройте Telegram и найдите нашего бота по имени @MegaVodyanoyBot или перейдите по ссылке.
+                    Запустите Telegram-бота и пройдите простую регистрацию. Укажите ваши данные и начните пользоваться сервисом.
                   </p>
-                  <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white">Запустить бота</Button>
+                  {/* <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white">Запустить бота</Button> */}
                 </div>
               </div>
 
@@ -443,7 +443,7 @@ export default function ProductPage() {
             <div className="bg-gray-800/50 backdrop-blur-xl rounded-2xl border border-gray-700 p-6">
               <h3 className="text-xl font-bold mb-3">Как происходит вывод кэшбэка?</h3>
               <p className="text-gray-300">
-                Вывод кэшбэка доступен при накоплении минимальной суммы в 20 000 ₽. Вы можете вывести средства на
+                Вывод кэшбэка доступен при накоплении определенной суммы. Вы можете вывести средства на
                 банковскую карту, электронный кошелек или использовать для оплаты новых заказов. Процесс занимает до 24
                 часов.
               </p>
@@ -498,12 +498,12 @@ export default function ProductPage() {
                 помощью нашего Telegram-бота
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
+                {/* <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white">
                   Запустить Telegram-бота <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button size="lg" variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
                   Связаться с нами
-                </Button>
+                </Button> */}
               </div>
               <p className="text-sm text-gray-400 mt-4">Начните пользоваться сервисом прямо сейчас — это бесплатно!</p>
             </div>
