@@ -27,9 +27,6 @@ export default function Home() {
             О компании
           </Link>
         </nav>
-          <div className="bg-emerald-500 hover:bg-emerald-600 text-white">
-
-          </div>
         {/* <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">Запустить бота</Button> */}
       </header>
 
